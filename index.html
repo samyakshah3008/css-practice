@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,65 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav class="one">
-            
+
         </nav>
     </header>
 
     <main>
         <p class="two"></p>
-    </main> 
 
-    <footer class="footer">
+        <h2>Child Selector</h2>
+
+        <p>The child selector (>) selects all elements that are the children of a specified element.</p>
+
+        <div>
+            <p>Paragraph 1 in the div.</p>
+            <p>Paragraph 2 in the div.</p>
+            <section>
+                <!-- not Child but Descendant -->
+                <p>Paragraph 3 in the div (inside a section element).</p>
+            </section>
+            <p>Paragraph 4 in the div.</p>
+        </div> 
+
+        <div> 
+            <p> New div </p>
+        </div>
+
+        <p>Paragraph 5. Not in a div.</p>
+        <p>Paragraph 6. Not in a div.</p> 
+
+        <h1>Demo of the element + element selector</h1>
+
+<div> Hey there </div> 
+<p> I will be styled </p>
+<div>
+  <h2>My name is Donald</h2>
+  <p>I live in Duckburg.</p>
+</div>
+
+ <p>My best friend is Mickey.</p>
+
+<p>I will not be styled.</p> 
+
+<p class="color-practice">Different colors and bg colors</p>  
+
+<p class="border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ullam beatae dolorem odit repellat animi!</p>  
+
+<p class="margins"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ratione itaque minima tenetur debitis minus excepturi iusto eaque commodi autem, laudantium, quas accusantium sint et tempore alias porro, laboriosam voluptates dolores animi vero error maiores obcaecati? Accusantium incidunt cupiditate mollitia iure distinctio, necessitatibus delectus eum blanditiis magni porro doloribus quisquam. </p>
+
+
+    </main>
+
+    <footer class="footer"> 
+
+        <div class="hero-image">Hey there</div>
 
     </footer>
 </body>
+
 </html>

@@ -1,8 +1,55 @@
-.one{
+ /* CSS Syntax  */
+/* .one{
     background-color: red;
+}  */
+
+/* .one is Selector, background color is property and red is the value  */
+
+/* .two{
+    background-color: royalblue; 
+} 
+
+div > p{
+    background-color: yellowgreen;
+}  
+
+div + p{
+    background-color: red;
+} */
+
+/* *{
+background-image: url("bg-image.jpg"); 
+    
+} */
+
+*{
+    background-image: url("owl.png"); 
+    background-position: right top; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 
-.two{
-    background-color: royalblue; 
+.color-practice{
+    background-color: rgb(0, 128, 0 , 0.4); 
+    padding: 2rem;
+    /* border: 2px solid rgb(156, 58, 58);  */
+    /* opacity: 0.5; */
 }
+
+/* .hero-image{
+background-image: url("bg-image.jpg"); 
+}  */
+
+.border{
+    border-style: inset;
+} 
+
+.margins{
+    /* margin: auto;  */
+    max-width: 500px; 
+    margin: 50px 50px; 
+    padding: 50px 50px;
+}
+
 
